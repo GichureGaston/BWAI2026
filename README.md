@@ -1,59 +1,38 @@
-# BahariConnct
+# Bahari-Connect: AI Financial Agent for the Blue Economy ⛵
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.6.
+**Built for: Build with AI Pwani 2026 Buildathon**
 
-## Development server
+🚀 **Live Demo**: [https://bahari-connect-711398702196.us-central1.run.app](https://bahari-connect-711398702196.us-central1.run.app)
 
-To start a local development server, run:
+## 🌊 The Challenge
+Coastal fishing communities in Mombasa (Likoni, Bamburi, Liwatoni) contribute significantly to the Blue Economy but remain financially invisible. Fishermen often lack formal records, making it impossible to access credit from banks or Chamas. Additionally, they are vulnerable to market price fluctuations due to a lack of real-time negotiation data.
 
-```bash
-ng serve
-```
+## 🚀 Our Solution: Bahari-Connect
+Bahari-Connect is an **AI-powered Financial Secretary** that turns daily fishing reports into a verified digital ledger. 
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+### Key Features:
+- **🗣️ Sheng/English Voice Intelligence**: A Voice-to-Text agent that understands localized code-switching, allowing fishermen to report catches in their natural language.
+- **💎 Automated Digital Ledger**: The Gemini-powered agent extracts species, weight, and location, creating a structured financial record from raw voice/text.
+- **📈 Real-Time Market Grounding**: Using dynamic market intelligence (April 2026), the AI provides strategic negotiation advice (e.g., "Oversupply at Likoni—move stock to Nyali for 15% better margins").
+- **💳 Trust Score (Creditworthiness)**: Generates a simulated "Trust Score" for each record, providing the alternative data needed for micro-finance and Chamas.
 
-## Code scaffolding
+## 🛠️ Technical Stack
+- **AI Model**: Google Gemini 2.5 Flash (via Google AI Studio).
+- **Backend**: FastAPI (Python) deployed on **Google Cloud Run**.
+- **Frontend**: Angular 21 (Modern Signals-based architecture).
+- **Database**: Google Firebase (Firestore) for real-time persistence.
+- **Deployment**: Fully containerized with Docker.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🏆 Judging Pillars
+- **Originality**: First-of-its-kind "Financial Secretary" specifically for coastal small-scale fisheries.
+- **Execution**: Integrated Google Generative AI with real-time web grounding and a high-performance Angular/FastAPI stack.
+- **Real-World Impact**: Empowers the 10,000+ fishermen in Pwani to build a credit history and negotiate better prices.
+- **Google Cloud/AI**: Deep integration of Gemini API, Firebase, and Cloud Run.
 
-```bash
-ng generate component component-name
-```
+## 📦 How to Run Locally
+1. Clone the repo.
+2. Add your `GOOGLE_API_KEY` to `backend/.env`.
+3. Run `docker-compose up` or start the FastAPI/Angular servers individually.
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+---
+**Build with AI Pwani 2026 • Sote Hub • Google Developer Groups**

@@ -1,0 +1,13 @@
+**/node_modules
+**/venv
+**/.git
+**/.vscode
+**/dist
+**/proxy.conf.json
+.env
+README.md
+implementation_plan.md
+task.md
+walkthrough.md
+Dockerfile
+docker-compose.yml
